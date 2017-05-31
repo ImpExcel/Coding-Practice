@@ -33,7 +33,7 @@ public class Solution {
 		int sum_wall = 0;
 		int n = grid.length;
 		int m = grid[0].length;
-		Queue<Node> qzombie = new LinkedList<Node>();
+        Queue<Node> qzombie = new LinkedList<Node>();
 		
 		// 遍历，统计僵尸数目和墙的数目
 		for (int i = 0; i < n; i++) {
