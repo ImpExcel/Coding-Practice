@@ -15,7 +15,7 @@ return 2.
 
 public class Solution {
 	class Node {
-		public int x, y;
+		public int x, y; 
 		public int step;
 		public Node() {}
 		public Node(int x, int y int step) {
